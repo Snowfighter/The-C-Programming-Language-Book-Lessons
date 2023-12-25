@@ -1,0 +1,5 @@
+.DS_Store
+
+# Ignoring Xcode Stuff
+*.xcodeproj/
+*xcodeproj

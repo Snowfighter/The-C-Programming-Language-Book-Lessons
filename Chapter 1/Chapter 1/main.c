@@ -7,8 +7,14 @@
 
 #include <stdio.h>
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+getting_started(void)
+{
+    printf("hello, world\n"); // prints character string || string constant
+    printf("hello \\\\ world \n");
+    return 0; // <- Removing it outputs an error message: Non-void fucntion does not return a value
+}
+
+main(void) {
+    getting_started();
     return 0;
 }

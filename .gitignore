@@ -3,3 +3,4 @@
 # Ignoring Xcode Stuff
 *.xcodeproj/
 *xcodeproj
+.xcode_work/
